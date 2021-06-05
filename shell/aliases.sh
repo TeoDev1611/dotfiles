@@ -1,12 +1,20 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
+# Path alias
 alias ..="cd .."
 alias ...="cd ../.."
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
-alias ll="exa -l"
+alias ls="exa -l"
 alias la="exa -la"
+
+# Tools alias
+alias v="nvim"
+alias g="git"
+alias rg="ranger"
+alias cat="cat"
+alias ct="bat"
 
 # Git
 alias gaa="git add -A"

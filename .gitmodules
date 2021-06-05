@@ -3,3 +3,8 @@
 	url = https://github.com/CodelyTV/dotly.git
 	branch = master
 	ignore = dirty
+[submodule "os/linux/ranger"]
+  path= os/linux/ranger/ranger-colorschemes
+  url= https://github.com/garyparrot/ranger-colorschemes
+  branch=master
+  ignore=dirty
