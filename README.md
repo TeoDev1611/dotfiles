@@ -1,11 +1,15 @@
 <h1 align="center">
-  .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
+  Teo Dev Personal Dotfiles with dotly 💻 
 </h1>
+
+## Installation
+
+
 
 ## Restore your Dotfiles manually
 
 * Install git
-* Clone your dotfiles repository `git clone [your repository of dotfiles] $HOME/.dotfiles`
+* Clone your dotfiles repository `git clone https://github.com/teodev1611/dotfiles $HOME/.dotfiles`
 * Go to your dotfiles folder `cd $HOME/.dotfiles`
 * Install git submodules `git submodule update --init --recursive modules/dotly`
 * Install your dotfiles `DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install`
@@ -24,6 +28,4 @@ Using curl
 bash <(curl -s https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/restorer)
 ```
 
-You need to know your GitHub username, repository and install ssh key if your repository is private.
-
-It also supports other git repos, but you need to know your git repository url.
+> .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
