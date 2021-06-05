@@ -3,7 +3,15 @@
 </h1>
 
 ## Installation
+Using wget
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/TeoDev1611/dotfiles/main/installer.sh)
+```
 
+Using curl
+```
+bash <(curl -s https://raw.githubusercontent.com/TeoDev1611/dotfiles/main/installer.sh)
+```
 
 
 ## Restore your Dotfiles manually
